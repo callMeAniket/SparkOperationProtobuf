@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message Metric {
+  string host = 1;
+  string metricName = 2;
+  string region = 3;
+  string timestamp = 4;
+  double value = 5;
+}
